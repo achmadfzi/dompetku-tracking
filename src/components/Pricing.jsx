@@ -12,7 +12,7 @@ export default function Pricing() {
                 <div className="text-center mb-16">
                     <ScrollReveal>
                         <h2 className="text-4xl md:text-6xl font-bold mb-6 text-foreground tracking-tight">
-                            Investasi Kecil, <span className="text-primary italic">Hemat Banyak</span>
+                            Investasi Kecil, <span className="text-primary">Hemat Banyak</span>
                         </h2>
                     </ScrollReveal>
                     <ScrollReveal delay={0.1}>
@@ -28,7 +28,6 @@ export default function Pricing() {
                                 <h3 className="text-sm font-bold tracking-[0.2em] text-muted mb-4 uppercase">FREE TRIAL</h3>
                                 <div className="flex items-baseline gap-2">
                                     <span className="text-5xl font-bold text-foreground">Rp 0</span>
-                                    <span className="text-muted font-medium">/minggu</span>
                                 </div>
                             </div>
                             <ul className="space-y-5 mb-10 flex-1">
@@ -61,7 +60,6 @@ export default function Pricing() {
                                 <h3 className="text-sm font-bold tracking-[0.2em] text-primary mb-4 uppercase">LIFETIME ACCESS</h3>
                                 <div className="flex items-baseline gap-2">
                                     <span className="text-5xl font-bold text-foreground">Rp 150.000</span>
-                                    <span className="text-primary font-medium text-sm px-2 py-1 bg-primary/10 rounded-lg">Hemat 100%</span>
                                 </div>
                                 <p className="text-muted mt-2 text-sm italic">*Sekali bayar untuk selamanya</p>
                             </div>
@@ -72,11 +70,11 @@ export default function Pricing() {
                                 </li>
                                 <li className="flex items-center gap-4 text-foreground/90">
                                     <span className="material-symbols-outlined text-primary bg-primary/10 p-1.5 rounded-full text-lg">mic</span>
-                                    Pencatatan pakai Voice & Foto
+                                    Pencatatan Pakai Teks, Foto & Voice Note
                                 </li>
                                 <li className="flex items-center gap-4 text-foreground/90">
                                     <span className="material-symbols-outlined text-primary bg-primary/10 p-1.5 rounded-full text-lg">bolt</span>
-                                    Fitur Premium tanpa batas kuota
+                                    Akses Semua Fitur Tanpa Batas
                                 </li>
                                 <li className="flex items-center gap-4 text-foreground/90">
                                     <span className="material-symbols-outlined text-primary bg-primary/10 p-1.5 rounded-full text-lg">grid_view</span>
