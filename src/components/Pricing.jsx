@@ -44,7 +44,7 @@ export default function Pricing() {
                                     Laporan Mingguan otomatis
                                 </li>
                             </ul>
-                            <a href="http://lynk.id/achmadfzidev/gn9y1479kppl/checkout" target="_blank" rel="noopener noreferrer" className="block w-full text-center py-4 rounded-2xl border border-border-color text-foreground font-bold hover:bg-foreground hover:text-background transition-all duration-300">
+                            <a href="http://lynk.id/achmadfzidev/qn4l82dg33mg/checkout" target="_blank" rel="noopener noreferrer" className="block w-full text-center py-4 rounded-2xl border border-border-color text-foreground font-bold hover:bg-foreground hover:text-background transition-all duration-300">
                                 Coba Gratis
                             </a>
                         </div>
