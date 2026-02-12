@@ -45,7 +45,7 @@ export default function Pricing() {
                                 </li>
                             </ul>
                             <a href="http://lynk.id/achmadfzidev/gn9y1479kppl/checkout" target="_blank" rel="noopener noreferrer" className="block w-full text-center py-4 rounded-2xl border border-border-color text-foreground font-bold hover:bg-foreground hover:text-background transition-all duration-300">
-                                Beli Sekarang
+                                Coba Gratis
                             </a>
                         </div>
                     </ScrollReveal>
