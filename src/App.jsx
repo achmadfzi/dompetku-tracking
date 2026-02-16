@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="relative flex min-h-screen w-full flex-col font-display bg-background text-foreground selection:bg-primary selection:text-black transition-colors duration-300">
+    <div className="relative flex min-h-screen w-full flex-col font-display bg-background text-foreground selection:bg-primary selection:text-black">
       <Navbar />
       <Hero />
       <HowItWorks />

@@ -5,8 +5,8 @@ export default function Pricing() {
     return (
         <section className="py-24 bg-background relative overflow-hidden" id="pricing">
             {/* Background Decorative Blobs */}
-            <div className="absolute top-1/4 -right-24 w-96 h-96 bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
-            <div className="absolute bottom-1/4 -left-24 w-96 h-96 bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
+            <div className="absolute top-1/4 -right-24 w-96 h-96 bg-primary/5 rounded-full blur-[80px] pointer-events-none will-change-transform" />
+            <div className="absolute bottom-1/4 -left-24 w-96 h-96 bg-primary/10 rounded-full blur-[80px] pointer-events-none will-change-transform" />
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <div className="text-center mb-16">
@@ -70,7 +70,7 @@ export default function Pricing() {
                                 </li>
                                 <li className="flex items-center gap-4 text-foreground/90">
                                     <span className="material-symbols-outlined text-primary bg-primary/10 p-1.5 rounded-full text-lg">mic</span>
-                                    Pencatatan Pakai Teks, Foto & Voice Note
+                                    Pencatatan Pakai Teks, Foto, PDF & Voice Note
                                 </li>
                                 <li className="flex items-center gap-4 text-foreground/90">
                                     <span className="material-symbols-outlined text-primary bg-primary/10 p-1.5 rounded-full text-lg">bolt</span>

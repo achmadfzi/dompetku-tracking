@@ -23,16 +23,6 @@ export default {
         "display": ["Manrope", "sans-serif"]
       },
       borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" },
-      keyframes: {
-        scan: {
-          '0%': { top: '0%' },
-          '50%': { top: '100%' },
-          '100%': { top: '0%' },
-        }
-      },
-      animation: {
-        scan: 'scan 3s linear infinite',
-      }
     },
   },
   plugins: [],

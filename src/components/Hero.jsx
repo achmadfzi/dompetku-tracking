@@ -10,13 +10,13 @@ export default function Hero() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1.5, ease: "easeOut" }}
-                className="absolute top-1/4 left-0 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px] pointer-events-none"
+                className="absolute top-1/4 left-0 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[80px] pointer-events-none will-change-transform"
             />
             <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1.5, delay: 0.2, ease: "easeOut" }}
-                className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-purple-900/10 rounded-full blur-[120px] pointer-events-none"
+                className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-purple-900/10 rounded-full blur-[80px] pointer-events-none will-change-transform"
             />
 
             <div className="max-w-7xl w-full mx-auto grid lg:grid-cols-2 gap-16 lg:gap-8 items-center relative z-10">
@@ -85,7 +85,7 @@ export default function Hero() {
                     className="relative flex justify-center lg:justify-end perspective-1000"
                 >
                     {/* Glow behind phone */}
-                    <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-purple-600/30 blur-[60px] rounded-full transform scale-90 translate-y-10"></div>
+                    <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-purple-600/30 blur-[40px] rounded-full transform scale-90 translate-y-10 will-change-transform"></div>
 
                     {/* Phone Frame */}
                     <div className="relative w-[320px] h-[650px] bg-[#1a1a1a] border-[8px] border-[#2a2a2a] rounded-[3rem] shadow-2xl overflow-hidden transform rotate-[-2deg] hover:rotate-0 transition-all duration-500 z-10">
@@ -95,7 +95,7 @@ export default function Hero() {
                         {/* Screen */}
                         <div className="w-full h-full bg-whatsapp-dark flex flex-col relative">
                             {/* WhatsApp Header */}
-                            <div className="bg-whatsapp-dark/95 backdrop-blur-sm px-4 pt-10 pb-3 flex items-center gap-3 border-b border-gray-800 z-20">
+                            <div className="bg-whatsapp-dark px-4 pt-10 pb-3 flex items-center gap-3 border-b border-gray-800 z-20">
                                 <span className="material-symbols-outlined text-primary">arrow_back</span>
                                 <div className="relative">
                                     <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-emerald-700 flex items-center justify-center text-white text-xs font-bold shadow-sm">
@@ -198,10 +198,10 @@ export default function Hero() {
                     </div>
 
                     {/* Floating Elements/Decorations */}
-                    <div className="absolute -right-8 top-1/4 bg-background-card p-3 rounded-2xl shadow-xl border border-white/5 animate-bounce delay-700 z-20 hidden lg:block">
+                    <div className="absolute -right-8 top-1/4 bg-background-card p-3 rounded-2xl shadow-xl border border-white/5 z-20 hidden lg:block animate-float">
                         <span className="material-symbols-outlined text-yellow-400 text-3xl">savings</span>
                     </div>
-                    <div className="absolute -left-4 bottom-1/4 bg-background-card p-3 rounded-2xl shadow-xl border border-white/5 animate-bounce delay-1000 z-20 hidden lg:block">
+                    <div className="absolute -left-4 bottom-1/4 bg-background-card p-3 rounded-2xl shadow-xl border border-white/5 z-20 hidden lg:block animate-float" style={{ animationDelay: '1s' }}>
                         <span className="material-symbols-outlined text-blue-400 text-3xl">analytics</span>
                     </div>
                 </motion.div>
@@ -215,11 +215,19 @@ export default function Hero() {
           from { opacity: 0; }
           to { opacity: 1; }
         }
+        @keyframes float {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-8px); }
+        }
         .animate-slide-up {
           animation: slideUp 0.5s ease-out;
         }
         .animate-fade-in {
           animation: fadeIn 0.5s ease-out;
+        }
+        .animate-float {
+          animation: float 4s ease-in-out infinite;
+          will-change: transform;
         }
       `}</style>
         </main>
