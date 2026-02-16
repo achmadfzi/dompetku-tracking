@@ -1,3 +1,3 @@
-# dompetku
+# sakumu
 
 git init
