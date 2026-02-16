@@ -105,7 +105,7 @@ export default function Hero() {
                                 </div>
                                 <div className="flex-1">
                                     <h3 className="text-white text-sm font-semibold flex items-center gap-1">
-                                        Dompetku
+                                        sakumu
                                         <span className="material-symbols-outlined text-primary text-[14px] fill-current" style={{ fontVariationSettings: "'FILL' 1" }}>verified</span>
                                     </h3>
                                     <p className="text-[10px] text-gray-400">Business Account</p>

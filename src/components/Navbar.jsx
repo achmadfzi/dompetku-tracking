@@ -13,7 +13,7 @@ export default function Navbar() {
                     <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-emerald-700 flex items-center justify-center text-white shadow-lg shadow-primary/20">
                         <span className="material-symbols-outlined text-[24px]">account_balance_wallet</span>
                     </div>
-                    <span className="text-xl font-bold tracking-tight text-foreground">Dompetku</span>
+                    <span className="text-xl font-bold tracking-tight text-foreground">sakumu</span>
                 </a>
 
                 {/* Desktop Nav */}

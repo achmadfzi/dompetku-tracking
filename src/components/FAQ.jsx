@@ -4,16 +4,16 @@ import ScrollReveal from './ScrollReveal';
 export default function FAQ() {
     const faqs = [
         {
-            q: "Apa itu Dompetku?",
-            a: "Dompetku adalah layanan pencatatan keuangan yang bisa kamu gunakan langsung lewat WhatsApp. Tanpa aplikasi tambahan, tanpa ribet — cukup chat seperti biasa."
+            q: "Apa itu sakumu?",
+            a: "sakumu adalah layanan pencatatan keuangan yang bisa kamu gunakan langsung lewat WhatsApp. Tanpa aplikasi tambahan, tanpa ribet — cukup chat seperti biasa."
         },
         {
             q: "Apakah data saya aman?",
-            a: "Aman. Dompetku tidak menyimpan data kamu di database internal. Semua data langsung tercatat di Google Sheet milik kamu, dan kamu memiliki kendali penuh atas file tersebut."
+            a: "Aman. sakumu tidak menyimpan data kamu di database internal. Semua data langsung tercatat di Google Sheet milik kamu, dan kamu memiliki kendali penuh atas file tersebut."
         },
         {
             q: "Apakah tersedia di iPhone dan Android?",
-            a: "Ya! Karena berbasis WhatsApp, Dompetku bisa digunakan di smathphone apa saja (iOS & Android) yang terinstall WhatsApp."
+            a: "Ya! Karena berbasis WhatsApp, sakumu bisa digunakan di smartphone apa saja (iOS & Android) yang terinstall WhatsApp."
         }
     ];
 

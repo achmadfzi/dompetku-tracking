@@ -10,7 +10,7 @@ export default function Footer() {
                             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-emerald-700 flex items-center justify-center text-white">
                                 <span className="material-symbols-outlined text-[20px]">account_balance_wallet</span>
                             </div>
-                            <span className="text-xl font-bold text-foreground">Dompetku</span>
+                            <span className="text-xl font-bold text-foreground">sakumu</span>
                         </div>
                         <p className="text-muted text-sm leading-relaxed mb-6">
                             Asisten keuangan pribadi berbasis AI yang hidup di WhatsApp Anda. Catat, pantau, dan hemat lebih banyak.
@@ -54,7 +54,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-border-color pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted">
-                    <p>&copy; 2026 Dompetku AI. All rights reserved.</p>
+                    <p>&copy; 2026 sakumu AI. All rights reserved.</p>
                     <div className="flex gap-6">
                         <span>Made with ❤️ in Malang</span>
                     </div>
