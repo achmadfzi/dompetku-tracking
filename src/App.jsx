@@ -7,6 +7,7 @@ import UseCases from './components/UseCases';
 import Pricing from './components/Pricing';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import N8nChat from './components/N8nChat';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Pricing />
       <FAQ />
       <Footer />
+      <N8nChat />
     </div>
   );
 }
