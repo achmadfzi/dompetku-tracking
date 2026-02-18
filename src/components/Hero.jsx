@@ -57,22 +57,20 @@ export default function Hero() {
 
                     <ScrollReveal delay={0.5}>
                         <div className="flex items-center gap-6 justify-center lg:justify-start pt-4 border-t border-border-color mt-4">
-                            <div className="flex -space-x-3">
-                                <div className="w-10 h-10 rounded-full border-2 border-background-dark bg-gray-600 bg-cover" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDkZaVA1Dphjz9IzYqkivVbRqNhit-ImnqX7D6aT5QWN6VEqtfZcdo8lLYFsX-WjfZpJQxIL0_jBbz8f5tafCF1uwMMZ9ob8sHoOY_23jK9JixcMT81QvDasLgaG8Q4X0-j_WWEbdPOyrLUDUpcVYU0utqIXtoKfcWAlQ1dsWQ53-6LQXCRTHEflyt1c_pAg3suHZ6pI_3uyTTNrI40IaqKt7BZaQKA6PuVq_rAVq_RkooGefeqHNSjnTRJ9PKa211lZcvAWwi5bA')" }}></div>
-                                <div className="w-10 h-10 rounded-full border-2 border-background-dark bg-gray-600 bg-cover" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBHhagDwsRw8bOjsfvDEST3OTYgcXXh0tD3liqveSc4lzEd6RXVpDY9-BHqydQjWfGMtjpj142sTBJtTDvxo9dE6fdwZZpKmr8wn2I7uY4mzMOqcDwDuy60RzbQlPmVGClxhUBUaJLp1YAn6czu-wxVtK_oNftCS_sJlm6ypSB63O8u_Wj78vc_v1UYmilB15FX7Mb0FXiC8_dLoRatzuNWi-Sc-xc3O2jvsjQHeUTsd9o2y5KpSEAFsHxfj58L16e9y6piv8mYlA')" }}></div>
-                                <div className="w-10 h-10 rounded-full border-2 border-background-dark bg-gray-600 bg-cover" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDWjHU10QPiWBx9pfixjEV05nYOXO5tpOyXKZnqbmoOZq6PEKoXiJiJpcAAHKDlX0LldK6nN0pJq5pBSxAUjXqcic5xxk2U2TEsFzAw2ZDdxs8k3XJ_rabxvNdKD9O78W_bY_YGRcax-JKjkhqdkkxHxWcCalpQ-9eoClyNDWsWuEDWTLnWDYhOE6JbMyCaYgytuGi7jX-1XW_03oF0Qa_SZYE9WmE0Ix4Kz49B9iXey-UyBK51Vhb7ImmOtqxmJzKazTVjYnBgWw')" }}></div>
-                                <div className="w-10 h-10 rounded-full border-2 border-background bg-gray-800 flex items-center justify-center text-xs font-bold text-white">
-                                    10k+
-                                </div>
-                            </div>
-                            <div className="text-sm text-gray-400">
-                                <div className="flex items-center gap-1 text-yellow-400 mb-0.5">
-                                    {[...Array(5)].map((_, i) => (
-                                        <span key={i} className="material-symbols-outlined text-[16px] fill-current" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-                                    ))}
-                                </div>
-                                <p>Dipercaya oleh 10,000+ pengguna</p>
-                            </div>
+                            <ul className="flex flex-row flex-wrap justify-center sm:justify-start gap-x-4 gap-y-2 sm:gap-6 text-xs sm:text-sm font-medium text-muted">
+                                <li className="flex items-center gap-2">
+                                    <span className="material-symbols-outlined text-primary text-[20px]">check_circle</span>
+                                    Gratis Selamanya
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <span className="material-symbols-outlined text-primary text-[20px]">check_circle</span>
+                                    Tanpa Aplikasi Tambahan
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <span className="material-symbols-outlined text-primary text-[20px]">check_circle</span>
+                                    Responsif
+                                </li>
+                            </ul>
                         </div>
                     </ScrollReveal>
                 </div>
