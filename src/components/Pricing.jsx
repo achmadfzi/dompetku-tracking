@@ -20,38 +20,9 @@ export default function Pricing() {
                     </ScrollReveal>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto items-stretch">
-                    {/* Free Plan */}
-                    <ScrollReveal delay={0.2} className="h-full">
-                        <div className="bg-background-card/50 backdrop-blur-sm border border-border-color rounded-[2.5rem] p-10 flex flex-col hover:border-primary/20 transition-all duration-500 h-full group">
-                            <div className="mb-8">
-                                <h3 className="text-sm font-bold tracking-[0.2em] text-muted mb-4 uppercase">FREE TRIAL</h3>
-                                <div className="flex items-baseline gap-2">
-                                    <span className="text-5xl font-bold text-foreground">Rp 0</span>
-                                </div>
-                            </div>
-                            <ul className="space-y-5 mb-10 flex-1">
-                                <li className="flex items-center gap-4 text-muted/90 group-hover:text-foreground transition-colors">
-                                    <span className="material-symbols-outlined text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
-                                    Gratis 7 hari akses penuh
-                                </li>
-                                <li className="flex items-center gap-4 text-muted/90 group-hover:text-foreground transition-colors">
-                                    <span className="material-symbols-outlined text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
-                                    Bisa hapus & update transaksi
-                                </li>
-                                <li className="flex items-center gap-4 text-muted/90 group-hover:text-foreground transition-colors">
-                                    <span className="material-symbols-outlined text-primary bg-primary/10 p-1 rounded-full text-lg">check</span>
-                                    Laporan Mingguan otomatis
-                                </li>
-                            </ul>
-                            <a href="http://lynk.id/achmadfzidev/qn4l82dg33mg/checkout" target="_blank" rel="noopener noreferrer" className="block w-full text-center py-4 rounded-2xl border border-border-color text-foreground font-bold hover:bg-foreground hover:text-background transition-all duration-300">
-                                Coba Gratis
-                            </a>
-                        </div>
-                    </ScrollReveal>
-
+                <div className="flex justify-center max-w-5xl mx-auto items-stretch">
                     {/* Pro Plan */}
-                    <ScrollReveal delay={0.4} className="h-full">
+                    <ScrollReveal delay={0.4} className="w-full max-w-md">
                         <div className="bg-background-card border-2 border-primary rounded-[2.5rem] p-10 flex flex-col relative overflow-hidden shadow-[0_0_80px_rgba(37,212,102,0.15)] h-full group scale-[1.02]">
                             <div className="absolute top-0 right-0 bg-primary text-background-dark text-[10px] font-black tracking-widest px-4 py-1.5 rounded-bl-2xl uppercase">
                                 RECOMMENDED
@@ -59,7 +30,7 @@ export default function Pricing() {
                             <div className="mb-8">
                                 <h3 className="text-sm font-bold tracking-[0.2em] text-primary mb-4 uppercase">LIFETIME ACCESS</h3>
                                 <div className="flex items-baseline gap-2">
-                                    <span className="text-5xl font-bold text-foreground">Rp 150.000</span>
+                                    <span className="text-5xl font-bold text-foreground">Rp 99.000</span>
                                 </div>
                                 <p className="text-muted mt-2 text-sm italic">*Sekali bayar untuk selamanya</p>
                             </div>
